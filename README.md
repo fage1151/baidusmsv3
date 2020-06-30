@@ -8,7 +8,7 @@
 
 
 ```php
-require_once __DIR__ . "/Baidusmsv3.php";
+require_once __DIR__ . "/baidusmsv3.php";
 $config = array(
     'endPoint' => 'smsv3.bj.baidubce.com',
     'accessKey' => '028xxxxxxxxxxxxxxxxxxxxxxx',
