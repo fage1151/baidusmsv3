@@ -20,7 +20,7 @@ $message = array(
     "mobile" => $tel,
     "template" => "sms-tmpl-yNtPhQ89473",
     "contentVar" => array(
-"code" => $code,
+              "code" => $code,
     ),
 );
 echo json_encode($smsClient->sendMessage($message), JSON_UNESCAPED_UNICODE);
