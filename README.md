@@ -14,7 +14,7 @@ $config = array(
     'accessKey' => '028xxxxxxxxxxxxxxxxxxxxxxx',
     'secretAccessKey' => '024xxxxxxxxxxxxxxxxxxxxxxxxxxx',
 );
-$smsClient = new ApiLib_Baidusmsv3($config);
+$smsClient = new Baidusmsv3($config);
 $message = array(
     "signatureId" => "sms-sign-jfMrIB59398",
     "mobile" => $tel,
