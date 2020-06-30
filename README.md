@@ -16,9 +16,9 @@ $config = array(
 );
 $smsClient = new Baidusmsv3($config);
 $message = array(
-    "signatureId" => "sms-sign-jfMrIB59398",
-    "mobile" => $tel,
-    "template" => "sms-tmpl-yNtPhQ89473",
+    "signatureId" => "sms-sign-jfMrIB59398",//短信签名
+    "mobile" => $tel,//手机号码
+    "template" => "sms-tmpl-yNtPhQ89473",//模板
     "contentVar" => array(
               "code" => $code,
     ),
